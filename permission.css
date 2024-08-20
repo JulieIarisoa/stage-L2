@@ -1,0 +1,901 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    font-family: cursive;
+}
+body{
+    background-color: rgb(249, 251, 254);
+}
+.conteneur{
+    margin-top: 5%;
+}
+.titre{
+    font-weight: bolder;
+    color: rgb(97, 2, 86);
+}
+table{
+    margin-top: 2%;
+    border-collapse: collapse;
+}
+th, td{
+    border: 0.1px solid rgba(135, 129, 129, 0.614);
+    padding: 15px;
+}
+img{
+    width: 20px;
+}
+.tab_btn{
+    background-color: #80034cf8;
+    width: 130px;
+    height: 40px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 9px #777577f8;
+    color: aliceblue;
+    font-weight: bolder;
+}
+.tab_btn:hover{
+    background-color: aliceblue;
+    width: 130px;
+    height: 40px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 9px #777577f8;
+    color: #80034cf8;
+    font-weight: bolder;
+}
+.ajout-permi{
+    background-color: #80034cf8;
+    width: 130px;
+    height: 40px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 9px #777577f8;
+    color: aliceblue;
+    font-weight: bolder;
+}
+/*******************************************************************************************************/
+@media(min-width:400px){
+    nav{
+        height: auto;
+        background-color: rgba(150, 117, 150, 0.582);
+        position: fixed;
+        min-width: 600px;
+    }
+    nav ul li{
+        display: inline;
+    }
+    nav ul li a button{
+        width: 60px;
+        margin: 4px;
+        height: 50px;
+        background-color: rgba(150, 117, 150, 0);
+        border: none;
+    }
+    nav ul li a button:hover{
+        background-color: rgba(150, 117, 150, 0.541);
+    }
+    nav ul li a button img{
+        width: 20px;
+        height: 20px;
+    }
+    span{
+        display: none;
+    }
+    .logo{
+        display: none;
+    }
+    #btn_logo{
+        margin-right: 7%;
+    }
+}
+
+@media(min-width:500px){
+    nav{
+        height: auto;
+        background-color: rgba(150, 117, 150, 0.582);
+        position: fixed;
+        min-width: 700px;
+    }
+    nav ul li{
+        display: inline;
+    }
+    nav ul li a button{
+        width: 70px;
+        margin: 5px;
+        height: 50px;
+        background-color: rgba(150, 117, 150, 0);
+        border: none;
+    }
+    nav ul li a button:hover{
+        background-color: rgba(150, 117, 150, 0.541);
+    }
+    nav ul li a button img{
+        width: 20px;
+        height: 20px;
+    }
+    .logo{
+        display: none;
+    }
+    #btn_logo{
+        margin-right: 7%;
+    }
+}
+
+@media(min-width:600px){
+    nav{
+        height: auto;
+        background-color: rgba(150, 117, 150, 0.582);
+        position: fixed;
+        min-width: 800px;
+    }
+    nav ul li{
+        display: inline;
+    }
+    nav ul li a button{
+        width: 80px;
+        margin: 6px;
+        height: 50px;
+        background-color: rgba(150, 117, 150, 0);
+        border: none;
+    }
+    nav ul li a button:hover{
+        background-color: rgba(150, 117, 150, 0.541);
+    }
+    nav ul li a button img{
+        width: 20px;
+        height: 20px;
+    }
+    span{
+        display: flex;
+        display: block;
+    }
+    .logo{
+        display: none;
+    }
+    #btn_logo{
+        margin-right: 7%;
+    }
+}
+
+@media(min-width:700px){
+    nav{
+        height: auto;
+        background-color: rgba(150, 117, 150, 0.582);
+        position: fixed;
+        min-width: 900px;
+    }
+    nav ul li{
+        display: inline;
+    }
+    nav ul li a button{
+        width: 90px;
+        margin: 7px;
+        height: 50px;
+        background-color: rgba(150, 117, 150, 0);
+        border: none;
+    }
+    nav ul li a button:hover{
+        background-color: rgba(150, 117, 150, 0.541);
+    }
+    nav ul li a button img{
+        width: 20px;
+        height: 20px;
+    }
+    span{
+        display: flex;
+        display: block;
+    }
+    .logo{
+        display: none;
+    }
+    #btn_logo{
+        margin-right: 7%;
+    }
+}
+
+@media(min-width:800px){
+    nav{
+        height: auto;
+        background-color: rgba(150, 117, 150, 0.582);
+        position: fixed;
+        min-width: 1000px;
+    }
+    nav ul li{
+        display: inline;
+    }
+    nav ul li a button{
+        width: 100px;
+        margin: 8px;
+        height: 50px;
+        background-color: rgba(150, 117, 150, 0);
+        border: none;
+    }
+    nav ul li a button:hover{
+        background-color: rgba(150, 117, 150, 0.541);
+    }
+    nav ul li a button img{
+        width: 20px;
+        height: 20px;
+    }
+    span{
+        display: flex;
+        display: block;
+    }
+    .logo{
+        display: none;
+    }
+    #btn_logo{
+        margin-right: 8%;
+    }
+}
+
+@media(min-width:900px){
+    nav{
+        height: auto;
+        background-color: rgba(150, 117, 150, 0.582);
+        position: fixed;
+        min-width: 1100px;
+    }
+    nav ul li{
+        display: inline;
+    }
+    nav ul li a button{
+        width: 110px;
+        margin: 9px;
+        height: 50px;
+        background-color: rgba(150, 117, 150, 0);
+        border: none;
+    }
+    nav ul li a button:hover{
+        background-color: rgba(150, 117, 150, 0.541);
+    }
+    nav ul li a button img{
+        width: 20px;
+        height: 20px;
+    }
+    span{
+        display: flex;
+        display: block;
+    }
+    .logo{
+        display: flex;
+        display: inline;
+    }
+    #btn_logo{
+        margin-right: 9%;
+    }
+}
+
+@media(min-width:1000px){
+    nav{
+        height: auto;
+        background-color: rgba(150, 117, 150, 0.582);
+        position: fixed;
+        min-width: 1200px;
+    }
+    nav ul li{
+        display: inline;
+    }
+    nav ul li a button{
+        width: 120px;
+        margin: 10px;
+        height: 50px;
+        background-color: rgba(150, 117, 150, 0);
+        border: none;
+    }
+    nav ul li a button:hover{
+        background-color: rgba(150, 117, 150, 0.541);
+    }
+    nav ul li a button img{
+        width: 20px;
+        height: 20px;
+    }
+    span{
+        display: flex;
+        display: inline;
+    }
+    .logo{
+        display: flex;
+        display: inline;
+    }
+    #btn_logo{
+        margin-right: 14%;
+    }
+}
+
+@media(min-width:1100px){
+    nav{
+        height: auto;
+        background-color: rgba(150, 117, 150, 0.582);
+        position: fixed;
+        min-width: 1300px;
+    }
+    nav ul li{
+        display: inline;
+    }
+    nav ul li a button{
+        width: 130px;
+        margin: 11px;
+        height: 50px;
+        background-color: rgba(150, 117, 150, 0);
+        border: none;
+    }
+    nav ul li a button:hover{
+        background-color: rgba(150, 117, 150, 0.541);
+    }
+    nav ul li a button img{
+        width: 20px;
+        height: 20px;
+    }
+    span{
+        display: flex;
+        display: inline;
+    }
+    .logo{
+        display: flex;
+        display: inline;
+    }
+    #btn_logo{
+        margin-right: 14%;
+    }
+}
+
+@media(min-width:1200px){
+    nav{
+        height: auto;
+        background-color: rgba(150, 117, 150, 0.582);
+        position: fixed;
+        min-width: 1400px;
+    }
+    nav ul li{
+        display: inline;
+    }
+    nav ul li a button{
+        width: 140px;
+        margin: 12px;
+        height: 50px;
+        background-color: rgba(150, 117, 150, 0);
+        border: none;
+    }
+    nav ul li a button:hover{
+        background-color: rgba(150, 117, 150, 0.541);
+    }
+    nav ul li a button img{
+        width: 20px;
+        height: 20px;
+    }
+    span{
+        display: flex;
+        display: inline;
+    }
+    .logo{
+        display: flex;
+        display: inline;
+    }
+    #btn_logo{
+        margin-right: 16%;
+    }
+}
+
+@media(min-width:1300px){
+    nav{
+        height: auto;
+        background-color: rgba(150, 117, 150, 0.582);
+        position: fixed;
+        min-width: 1500px;
+    }
+    nav ul li{
+        display: inline;
+    }
+    nav ul li a button{
+        width: 150px;
+        margin: 13px;
+        height: 55px;
+        background-color: rgba(150, 117, 150, 0);
+        border: none;
+    }
+    nav ul li a button:hover{
+        background-color: rgba(150, 117, 150, 0.541);
+    }
+    nav ul li a button img{
+        width: 20px;
+        height: 20px;
+    }
+    span{
+        display: flex;
+        display: inline;
+        display: inline;
+    }
+    .logo{
+        display: flex;
+        display: inline;
+    }
+    #btn_logo{
+        margin-right: 18%;
+    }
+}
+
+@media(min-width:1400px){
+    nav{
+        height: auto;
+        background-color: rgba(150, 117, 150, 0.582);
+        position: fixed;
+        min-width: 1600px;
+    }
+    nav ul li{
+        display: inline;
+    }
+    nav ul li a button{
+        width: 160px;
+        margin: 14px;
+        height: 60px;
+        background-color: rgba(150, 117, 150, 0);
+        border: none;
+    }
+    nav ul li a button:hover{
+        background-color: rgba(150, 117, 150, 0.541);
+    }
+    nav ul li a button img{
+        width: 20px;
+        height: 20px;
+    }
+    span{
+        display: flex;
+        display: inline;
+    }
+    .logo{
+        display: flex;
+        display: inline;
+    }
+    #btn_logo{
+        margin-right: 19%;
+    }
+}
+
+@media(min-width:1500px){
+    nav{
+        height: auto;
+        background-color: rgba(150, 117, 150, 0.582);
+        position: fixed;
+        min-width: 1700px;
+    }
+    nav ul li{
+        display: inline;
+    }
+    nav ul li a button{
+        width: 170px;
+        margin: 15px;
+        height: 65px;
+        background-color: rgba(150, 117, 150, 0);
+        border: none;
+    }
+    nav ul li a button:hover{
+        background-color: rgba(150, 117, 150, 0.541);
+    }
+    nav ul li a button img{
+        width: 20px;
+        height: 20px;
+    }
+    span{
+        display: flex;
+        display: inline;
+    }
+    .logo{
+        display: flex;
+        display: inline;
+    }
+    #btn_logo{
+        margin-right: 20%;
+    }
+}
+@media(min-width:1600px){
+    nav{
+        height: auto;
+        background-color: rgba(150, 117, 150, 0.582);
+        position: fixed;
+        min-width: 1800px;
+    }
+    nav ul li{
+        display: inline;
+    }
+    nav ul li a button{
+        width: 180px;
+        margin: 16px;
+        height: 70px;
+        background-color: rgba(150, 117, 150, 0);
+        border: none;
+    }
+    nav ul li a button:hover{
+        background-color: rgba(150, 117, 150, 0.541);
+    }
+    nav ul li a button img{
+        width: 20px;
+        height: 20px;
+    }
+    span{
+        display: flex;
+        display: inline;
+    }
+    .logo{
+        display: flex;
+        display: inline;
+    }
+    #btn_logo{
+        margin-right: 21%;
+    }
+}
+
+@media(min-width:1700px){
+    nav{
+        height: auto;
+        background-color: rgba(150, 117, 150, 0.582);
+        position: fixed;
+        min-width: 1900px;
+    }
+    nav ul li{
+        display: inline;
+    }
+    nav ul li a button{
+        width: 190px;
+        margin: 17px;
+        height: 75px;
+        background-color: rgba(150, 117, 150, 0);
+        border: none;
+    }
+    nav ul li a button:hover{
+        background-color: rgba(150, 117, 150, 0.541);
+    }
+    nav ul li a button img{
+        width: 20px;
+        height: 20px;
+    }
+    span{
+        display: flex;
+        display: inline;
+    }
+    .logo{
+        display: flex;
+        display: inline;
+    }
+    #btn_logo{
+        margin-right: 22%;
+    }
+}
+
+@media(min-width:1800px){
+    nav{
+        height: auto;
+        background-color: rgba(150, 117, 150, 0.582);
+        position: fixed;
+        min-width: 2000px;
+    }
+    nav ul li{
+        display: inline;
+    }
+    nav ul li a button{
+        width: 200px;
+        margin: 18px;
+        height: 80px;
+        background-color: rgba(150, 117, 150, 0);
+        border: none;
+    }
+    nav ul li a button:hover{
+        background-color: rgba(150, 117, 150, 0.541);
+    }
+    nav ul li a button img{
+        width: 20px;
+        height: 20px;
+    }
+    span{
+        display: flex;
+        display: inline;
+    }
+    .logo{
+        display: flex;
+        display: inline;
+    }
+    #btn_logo{
+        margin-right: 23%;
+    }
+}
+
+@media(min-width:1900px){
+    nav{
+        height: auto;
+        background-color: rgba(150, 117, 150, 0.582);
+        position: fixed;
+        min-width: 2100px;
+    }
+    nav ul li{
+        display: inline;
+    }
+    nav ul li a button{
+        width: 210px;
+        margin: 19px;
+        height: 85px;
+        background-color: rgba(150, 117, 150, 0);
+        border: none;
+    }
+    nav ul li a button:hover{
+        background-color: rgba(150, 117, 150, 0.541);
+    }
+    nav ul li a button img{
+        width: 20px;
+        height: 20px;
+    }
+    span{
+        display: flex;
+        display: inline;
+    }
+    .logo{
+        display: flex;
+        display: inline;
+    }
+    #btn_logo{
+        margin-right: 24%;
+    }
+}
+
+@media(min-width:2000px){
+    nav{
+        height: auto;
+        background-color: rgba(150, 117, 150, 0.582);
+        position: fixed;
+        min-width: 2200px;
+    }
+    nav ul li{
+        display: inline;
+    }
+    nav ul li a button{
+        width: 220px;
+        margin: 20px;
+        height: 90px;
+        background-color: rgba(150, 117, 150, 0);
+        border: none;
+    }
+    nav ul li a button:hover{
+        background-color: rgba(150, 117, 150, 0.541);
+    }
+    nav ul li a button img{
+        width: 20px;
+        height: 20px;
+    }
+    span{
+        display: flex;
+        display: inline;
+    }
+    .logo{
+        display: flex;
+        display: inline;
+    }
+    #btn_logo{
+        margin-right: 25%;
+    }
+}
+
+@media(min-width:2100px){
+    nav{
+        height: auto;
+        background-color: rgba(150, 117, 150, 0.582);
+        position: fixed;
+        min-width: 2300px;
+    }
+    nav ul li{
+        display: inline;
+    }
+    nav ul li a button{
+        width: 230px;
+        margin: 21px;
+        height: 95px;
+        background-color: rgba(150, 117, 150, 0);
+        border: none;
+    }
+    nav ul li a button:hover{
+        background-color: rgba(150, 117, 150, 0.541);
+    }
+    nav ul li a button img{
+        width: 20px;
+        height: 20px;
+    }
+    span{
+        display: flex;
+        display: inline;
+    }
+    .logo{
+        display: flex;
+        display: inline;
+    }
+    #btn_logo{
+        margin-right: 25%;
+    }
+}
+
+@media(min-width:2200px){
+    nav{
+        height: auto;
+        background-color: rgba(150, 117, 150, 0.582);
+        position: fixed;
+        min-width: 2400px;
+    }
+    nav ul li{
+        display: inline;
+    }
+    nav ul li a button{
+        width: 240px;
+        margin: 22px;
+        height: 100px;
+        background-color: rgba(150, 117, 150, 0);
+        border: none;
+    }
+    nav ul li a button:hover{
+        background-color: rgba(150, 117, 150, 0.541);
+    }
+    nav ul li a button img{
+        width: 20px;
+        height: 20px;
+    }
+    span{
+        display: flex;
+        display: inline;
+    }
+    .logo{
+        display: flex;
+        display: inline;
+    }
+    #btn_logo{
+        margin-right: 26%;
+    }
+}
+
+@media(min-width:2300px){
+    nav{
+        height: auto;
+        background-color: rgba(150, 117, 150, 0.582);
+        position: fixed;
+        min-width: 2500px;
+    }
+    nav ul li{
+        display: inline;
+    }
+    nav ul li a button{
+        width: 250px;
+        margin: 23px;
+        height: 105px;
+        background-color: rgba(150, 117, 150, 0);
+        border: none;
+    }
+    nav ul li a button:hover{
+        background-color: rgba(150, 117, 150, 0.541);
+    }
+    nav ul li a button img{
+        width: 20px;
+        height: 20px;
+    }
+    span{
+        display: flex;
+        display: inline;
+    }
+    .logo{
+        display: flex;
+        display: inline;
+    }
+    #btn_logo{
+        margin-right: 27%;
+    }
+}
+
+@media(min-width:2400px){
+    nav{
+        height: auto;
+        background-color: rgba(150, 117, 150, 0.582);
+        position: fixed;
+        min-width: 2600px;
+    }
+    nav ul li{
+        display: inline;
+    }
+    nav ul li a button{
+        width: 260px;
+        margin: 24px;
+        height: 110px;
+        background-color: rgba(150, 117, 150, 0);
+        border: none;
+    }
+    nav ul li a button:hover{
+        background-color: rgba(150, 117, 150, 0.541);
+    }
+    nav ul li a button img{
+        width: 20px;
+        height: 20px;
+    }
+    span{
+        display: flex;
+        display: inline;
+    }
+    .logo{
+        display: flex;
+        display: inline;
+    }
+    #btn_logo{
+        margin-right: 28%;
+    }
+}
+
+@media(min-width:2500px){
+    nav{
+        height: auto;
+        background-color: rgba(150, 117, 150, 0.582);
+        position: fixed;
+        min-width: 2700px;
+    }
+    nav ul li{
+        display: inline;
+    }
+    nav ul li a button{
+        width: 270px;
+        margin: 25px;
+        height: 115px;
+        background-color: rgba(150, 117, 150, 0);
+        border: none;
+    }
+    nav ul li a button:hover{
+        background-color: rgba(150, 117, 150, 0.541);
+    }
+    nav ul li a button img{
+        width: 20px;
+        height: 20px;
+    }
+    span{
+        display: flex;
+        display: inline;
+    }
+    .logo{
+        display: flex;
+        display: inline;
+    }
+    #btn_logo{
+        margin-right: 29%;
+    }
+}
+
+@media(min-width:2600px){
+    nav{
+        height: auto;
+        background-color: rgba(150, 117, 150, 0.582);
+        position: fixed;
+        min-width: 2800px;
+    }
+    nav ul li{
+        display: inline;
+    }
+    nav ul li a button{
+        width: 280px;
+        margin: 26px;
+        height: 120px;
+        background-color: rgba(150, 117, 150, 0);
+        border: none;
+    }
+    nav ul li a button:hover{
+        background-color: rgba(150, 117, 150, 0.541);
+    }
+    nav ul li a button img{
+        width: 20px;
+        height: 20px;
+    }
+    span{
+        display: flex;
+        display: inline;
+    }
+    .logo{
+        display: flex;
+        display: inline;
+    }
+    #btn_logo{
+        margin-right: 30%;
+    }
+}

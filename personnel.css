@@ -1,0 +1,1084 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    font-family: cursive;
+}
+.div-bt{
+    position: fixed;
+}
+.bt {
+    display: block;
+    background-color: #80034cf8;
+    width: 130px;
+    height: 40px;
+    margin: 5px;
+    padding-top: 10px;
+    padding-left: 68px;
+    border: none;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.bt a{
+    color: white;
+}
+.bt span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.bt span:after {
+    content: "\00bb";
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+.bt:hover {
+    background-color: aliceblue;
+    font-weight: bolder;
+    color: #810863;
+    padding: 8%;
+    }
+    .bt:hover span {
+    padding-right: 25px;
+    }
+    .bt:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+.bt:hover a{
+    color: #810863;
+}
+.corp{
+    float: right;
+    background-color: rgba(46, 9, 9, 0);
+    border: none;
+    margin: 15px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    border-radius: 5px;
+}
+.corp:hover{
+    padding: 12px;
+}
+.btn1{
+    width: 20px;
+}
+.indentity{
+    width: 200px;
+    float: inline-start;
+    margin-right: 15px;
+}
+.btn_pers{
+    display: inline;
+    float: right;
+    margin-bottom: auto;
+    margin:15px;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+.btn_pers:hover{
+    background-color: rgba(6, 218, 255, 0.127);
+}
+.btn_pers a{
+    color: rgb(52, 2, 39);
+    font-size: 15px;
+    font-weight: bolder;
+}
+.btn_pers a:hover{
+    color: rgb(213, 26, 98);
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.para{
+    margin-left: 220px;
+    color: rgba(0, 0, 0, 0.869);
+}
+/*******************************************************************************************************/
+@media(min-width:400px){
+    nav{
+        height: auto;
+        background-color: rgba(150, 117, 150, 0.582);
+        position: fixed;
+        min-width: 600px;
+    }
+    nav ul li{
+        display: inline;
+    }
+    nav ul li a button{
+        width: 60px;
+        margin: 4px;
+        height: 50px;
+        background-color: rgba(150, 117, 150, 0);
+        border: none;
+    }
+    nav ul li a button:hover{
+        background-color: rgba(150, 117, 150, 0.541);
+    }
+    nav ul li a button img{
+        width: 20px;
+        height: 20px;
+    }
+    span{
+        display: none;
+    }
+    .logo{
+        display: none;
+    }
+    #btn_logo{
+        margin-right: 7%;
+    }
+    .nav-div{
+        background-color: rgba(0, 2, 2, 0);
+        height: 84.5px;
+    }
+    .bt{
+        display: none;
+    }
+    .corp{
+        width: 400px;
+    }
+}
+
+@media(min-width:500px){
+    nav{
+        height: auto;
+        background-color: rgba(150, 117, 150, 0.582);
+        position: fixed;
+        min-width: 700px;
+    }
+    nav ul li{
+        display: inline;
+    }
+    nav ul li a button{
+        width: 70px;
+        margin: 5px;
+        height: 50px;
+        background-color: rgba(150, 117, 150, 0);
+        border: none;
+    }
+    nav ul li a button:hover{
+        background-color: rgba(150, 117, 150, 0.541);
+    }
+    nav ul li a button img{
+        width: 20px;
+        height: 20px;
+    }
+    .logo{
+        display: none;
+    }
+    #btn_logo{
+        margin-right: 7%;
+    }
+    .bt{
+        display: none;
+    }
+    .corp{
+        width: 500px;
+    }
+}
+
+@media(min-width:600px){
+    nav{
+        height: auto;
+        background-color: rgba(150, 117, 150, 0.582);
+        position: fixed;
+        min-width: 800px;
+    }
+    nav ul li{
+        display: inline;
+    }
+    nav ul li a button{
+        width: 80px;
+        margin: 6px;
+        height: 50px;
+        background-color: rgba(150, 117, 150, 0);
+        border: none;
+    }
+    nav ul li a button:hover{
+        background-color: rgba(150, 117, 150, 0.541);
+    }
+    nav ul li a button img{
+        width: 20px;
+        height: 20px;
+    }
+    span{
+        display: flex;
+        display: block;
+    }
+    .logo{
+        display: none;
+    }
+    #btn_logo{
+        margin-right: 7%;
+    }
+    .bt{
+        display: none;
+    }
+    .corp{
+        width: 600px;
+    }
+}
+
+@media(min-width:700px){
+    nav{
+        height: auto;
+        background-color: rgba(150, 117, 150, 0.582);
+        position: fixed;
+        min-width: 900px;
+    }
+    nav ul li{
+        display: inline;
+    }
+    nav ul li a button{
+        width: 90px;
+        margin: 7px;
+        height: 50px;
+        background-color: rgba(150, 117, 150, 0);
+        border: none;
+    }
+    nav ul li a button:hover{
+        background-color: rgba(150, 117, 150, 0.541);
+    }
+    nav ul li a button img{
+        width: 20px;
+        height: 20px;
+    }
+    span{
+        display: flex;
+        display: block;
+    }
+    .logo{
+        display: none;
+    }
+    #btn_logo{
+        margin-right: 7%;
+    }
+    .bt{
+        display: none;
+    }
+    .corp{
+        width: 700px;
+    }
+}
+
+@media(min-width:800px){
+    nav{
+        height: auto;
+        background-color: rgba(150, 117, 150, 0.582);
+        position: fixed;
+        min-width: 1000px;
+    }
+    nav ul li{
+        display: inline;
+    }
+    nav ul li a button{
+        width: 100px;
+        margin: 8px;
+        height: 50px;
+        background-color: rgba(150, 117, 150, 0);
+        border: none;
+    }
+    nav ul li a button:hover{
+        background-color: rgba(150, 117, 150, 0.541);
+    }
+    nav ul li a button img{
+        width: 20px;
+        height: 20px;
+    }
+    span{
+        display: flex;
+        display: block;
+    }
+    .logo{
+        display: none;
+    }
+    #btn_logo{
+        margin-right: 8%;
+    }
+    .bt{
+        display: flex;
+    }
+    .corp{
+        width: 800px;
+    }
+}
+
+@media(min-width:900px){
+    nav{
+        height: auto;
+        background-color: rgba(150, 117, 150, 0.582);
+        position: fixed;
+        min-width: 1100px;
+    }
+    nav ul li{
+        display: inline;
+    }
+    nav ul li a button{
+        width: 110px;
+        margin: 9px;
+        height: 50px;
+        background-color: rgba(150, 117, 150, 0);
+        border: none;
+    }
+    nav ul li a button:hover{
+        background-color: rgba(150, 117, 150, 0.541);
+    }
+    nav ul li a button img{
+        width: 20px;
+        height: 20px;
+    }
+    span{
+        display: flex;
+        display: block;
+    }
+    .logo{
+        display: flex;
+        display: inline;
+    }
+    #btn_logo{
+        margin-right: 9%;
+    }
+    .bt{
+        display: flex;
+    }
+    .corp{
+        width: 700px;
+    }
+}
+
+@media(min-width:1000px){
+    nav{
+        height: auto;
+        background-color: rgba(150, 117, 150, 0.582);
+        position: fixed;
+        min-width: 1200px;
+    }
+    nav ul li{
+        display: inline;
+    }
+    nav ul li a button{
+        width: 120px;
+        margin: 10px;
+        height: 50px;
+        background-color: rgba(150, 117, 150, 0);
+        border: none;
+    }
+    nav ul li a button:hover{
+        background-color: rgba(150, 117, 150, 0.541);
+    }
+    nav ul li a button img{
+        width: 20px;
+        height: 20px;
+    }
+    span{
+        display: flex;
+        display: inline;
+    }
+    .logo{
+        display: flex;
+        display: inline;
+    }
+    #btn_logo{
+        margin-right: 14%;
+    }
+    .bt{
+        display: flex;
+    }
+    .corp{
+        width: 800px;
+    }
+}
+
+@media(min-width:1100px){
+    nav{
+        height: auto;
+        background-color: rgba(150, 117, 150, 0.582);
+        position: fixed;
+        min-width: 1300px;
+    }
+    nav ul li{
+        display: inline;
+    }
+    nav ul li a button{
+        width: 130px;
+        margin: 11px;
+        height: 50px;
+        background-color: rgba(150, 117, 150, 0);
+        border: none;
+    }
+    nav ul li a button:hover{
+        background-color: rgba(150, 117, 150, 0.541);
+    }
+    nav ul li a button img{
+        width: 20px;
+        height: 20px;
+    }
+    span{
+        display: flex;
+        display: inline;
+    }
+    .logo{
+        display: flex;
+        display: inline;
+    }
+    #btn_logo{
+        margin-right: 14%;
+    }
+    .bt{
+        display: flex;
+    }
+    .corp{
+        width: 900px;
+    }
+}
+
+@media(min-width:1200px){
+    nav{
+        height: auto;
+        background-color: rgba(150, 117, 150, 0.582);
+        position: fixed;
+        min-width: 1400px;
+    }
+    nav ul li{
+        display: inline;
+    }
+    nav ul li a button{
+        width: 140px;
+        margin: 12px;
+        height: 50px;
+        background-color: rgba(150, 117, 150, 0);
+        border: none;
+    }
+    nav ul li a button:hover{
+        background-color: rgba(150, 117, 150, 0.541);
+    }
+    nav ul li a button img{
+        width: 20px;
+        height: 20px;
+    }
+    span{
+        display: flex;
+        display: inline;
+    }
+    .logo{
+        display: flex;
+        display: inline;
+    }
+    #btn_logo{
+        margin-right: 16%;
+    }
+    .bt{
+        display: flex;
+    }
+    .corp{
+        width: 1000px;
+    }
+}
+
+@media(min-width:1300px){
+    nav{
+        height: auto;
+        background-color: rgba(150, 117, 150, 0.582);
+        position: fixed;
+        min-width: 1500px;
+    }
+    nav ul li{
+        display: inline;
+    }
+    nav ul li a button{
+        width: 150px;
+        margin: 13px;
+        height: 55px;
+        background-color: rgba(150, 117, 150, 0);
+        border: none;
+    }
+    nav ul li a button:hover{
+        background-color: rgba(150, 117, 150, 0.541);
+    }
+    nav ul li a button img{
+        width: 20px;
+        height: 20px;
+    }
+    span{
+        display: flex;
+        display: inline;
+        display: inline;
+    }
+    .logo{
+        display: flex;
+        display: inline;
+    }
+    #btn_logo{
+        margin-right: 18%;
+    }
+    .bt{
+        display: flex;
+    }
+    .corp{
+        width: 1100px;
+    }
+}
+
+@media(min-width:1400px){
+    nav{
+        height: auto;
+        background-color: rgba(150, 117, 150, 0.582);
+        position: fixed;
+        min-width: 1600px;
+    }
+    nav ul li{
+        display: inline;
+    }
+    nav ul li a button{
+        width: 160px;
+        margin: 14px;
+        height: 60px;
+        background-color: rgba(150, 117, 150, 0);
+        border: none;
+    }
+    nav ul li a button:hover{
+        background-color: rgba(150, 117, 150, 0.541);
+    }
+    nav ul li a button img{
+        width: 20px;
+        height: 20px;
+    }
+    span{
+        display: flex;
+        display: inline;
+    }
+    .logo{
+        display: flex;
+        display: inline;
+    }
+    #btn_logo{
+        margin-right: 19%;
+    }
+    .bt{
+        display: flex;
+    }
+    .corp{
+        width: 1200px;
+    }
+}
+
+@media(min-width:1500px){
+    nav{
+        height: auto;
+        background-color: rgba(150, 117, 150, 0.582);
+        position: fixed;
+        min-width: 1700px;
+    }
+    nav ul li{
+        display: inline;
+    }
+    nav ul li a button{
+        width: 170px;
+        margin: 15px;
+        height: 65px;
+        background-color: rgba(150, 117, 150, 0);
+        border: none;
+    }
+    nav ul li a button:hover{
+        background-color: rgba(150, 117, 150, 0.541);
+    }
+    nav ul li a button img{
+        width: 20px;
+        height: 20px;
+    }
+    span{
+        display: flex;
+        display: inline;
+    }
+    .logo{
+        display: flex;
+        display: inline;
+    }
+    #btn_logo{
+        margin-right: 20%;
+    }
+    .bt{
+        display: flex;
+    }
+    .corp{
+        width: 1300px;
+    }
+}
+@media(min-width:1600px){
+    nav{
+        height: auto;
+        background-color: rgba(150, 117, 150, 0.582);
+        position: fixed;
+        min-width: 1800px;
+    }
+    nav ul li{
+        display: inline;
+    }
+    nav ul li a button{
+        width: 180px;
+        margin: 16px;
+        height: 70px;
+        background-color: rgba(150, 117, 150, 0);
+        border: none;
+    }
+    nav ul li a button:hover{
+        background-color: rgba(150, 117, 150, 0.541);
+    }
+    nav ul li a button img{
+        width: 20px;
+        height: 20px;
+    }
+    span{
+        display: flex;
+        display: inline;
+    }
+    .logo{
+        display: flex;
+        display: inline;
+    }
+    #btn_logo{
+        margin-right: 21%;
+    }
+    .bt{
+        display: flex;
+    }
+    .corp{
+        width: 1400px;
+    }
+}
+
+@media(min-width:1700px){
+    nav{
+        height: auto;
+        background-color: rgba(150, 117, 150, 0.582);
+        position: fixed;
+        min-width: 1900px;
+    }
+    nav ul li{
+        display: inline;
+    }
+    nav ul li a button{
+        width: 190px;
+        margin: 17px;
+        height: 75px;
+        background-color: rgba(150, 117, 150, 0);
+        border: none;
+    }
+    nav ul li a button:hover{
+        background-color: rgba(150, 117, 150, 0.541);
+    }
+    nav ul li a button img{
+        width: 20px;
+        height: 20px;
+    }
+    span{
+        display: flex;
+        display: inline;
+    }
+    .logo{
+        display: flex;
+        display: inline;
+    }
+    #btn_logo{
+        margin-right: 22%;
+    }
+    .bt{
+        display: flex;
+    }
+    .corp{
+        width: 1500px;
+    }
+}
+
+@media(min-width:1800px){
+    nav{
+        height: auto;
+        background-color: rgba(150, 117, 150, 0.582);
+        position: fixed;
+        min-width: 2000px;
+    }
+    nav ul li{
+        display: inline;
+    }
+    nav ul li a button{
+        width: 200px;
+        margin: 18px;
+        height: 80px;
+        background-color: rgba(150, 117, 150, 0);
+        border: none;
+    }
+    nav ul li a button:hover{
+        background-color: rgba(150, 117, 150, 0.541);
+    }
+    nav ul li a button img{
+        width: 20px;
+        height: 20px;
+    }
+    span{
+        display: flex;
+        display: inline;
+    }
+    .logo{
+        display: flex;
+        display: inline;
+    }
+    #btn_logo{
+        margin-right: 23%;
+    }
+    .bt{
+        display: flex;
+    }
+    .corp{
+        width: 1600px;
+    }
+}
+
+@media(min-width:1900px){
+    nav{
+        height: auto;
+        background-color: rgba(150, 117, 150, 0.582);
+        position: fixed;
+        min-width: 2100px;
+    }
+    nav ul li{
+        display: inline;
+    }
+    nav ul li a button{
+        width: 210px;
+        margin: 19px;
+        height: 85px;
+        background-color: rgba(150, 117, 150, 0);
+        border: none;
+    }
+    nav ul li a button:hover{
+        background-color: rgba(150, 117, 150, 0.541);
+    }
+    nav ul li a button img{
+        width: 20px;
+        height: 20px;
+    }
+    span{
+        display: flex;
+        display: inline;
+    }
+    .logo{
+        display: flex;
+        display: inline;
+    }
+    #btn_logo{
+        margin-right: 24%;
+    }
+    .bt{
+        display: flex;
+    }
+    .corp{
+        width: 1800px;
+    }
+}
+
+@media(min-width:2000px){
+    nav{
+        height: auto;
+        background-color: rgba(150, 117, 150, 0.582);
+        position: fixed;
+        min-width: 2200px;
+    }
+    nav ul li{
+        display: inline;
+    }
+    nav ul li a button{
+        width: 220px;
+        margin: 20px;
+        height: 90px;
+        background-color: rgba(150, 117, 150, 0);
+        border: none;
+    }
+    nav ul li a button:hover{
+        background-color: rgba(150, 117, 150, 0.541);
+    }
+    nav ul li a button img{
+        width: 20px;
+        height: 20px;
+    }
+    span{
+        display: flex;
+        display: inline;
+    }
+    .logo{
+        display: flex;
+        display: inline;
+    }
+    #btn_logo{
+        margin-right: 25%;
+    }
+    .bt{
+        display: flex;
+    }
+    .corp{
+        width: 1900px;
+    }
+}
+
+@media(min-width:2100px){
+    nav{
+        height: auto;
+        background-color: rgba(150, 117, 150, 0.582);
+        position: fixed;
+        min-width: 2300px;
+    }
+    nav ul li{
+        display: inline;
+    }
+    nav ul li a button{
+        width: 230px;
+        margin: 21px;
+        height: 95px;
+        background-color: rgba(150, 117, 150, 0);
+        border: none;
+    }
+    nav ul li a button:hover{
+        background-color: rgba(150, 117, 150, 0.541);
+    }
+    nav ul li a button img{
+        width: 20px;
+        height: 20px;
+    }
+    span{
+        display: flex;
+        display: inline;
+    }
+    .logo{
+        display: flex;
+        display: inline;
+    }
+    #btn_logo{
+        margin-right: 25%;
+    }
+    .bt{
+        display: flex;
+    }
+    .corp{
+        width: 1900px;
+    }
+}
+
+@media(min-width:2200px){
+    nav{
+        height: auto;
+        background-color: rgba(150, 117, 150, 0.582);
+        position: fixed;
+        min-width: 2400px;
+    }
+    nav ul li{
+        display: inline;
+    }
+    nav ul li a button{
+        width: 240px;
+        margin: 22px;
+        height: 100px;
+        background-color: rgba(150, 117, 150, 0);
+        border: none;
+    }
+    nav ul li a button:hover{
+        background-color: rgba(150, 117, 150, 0.541);
+    }
+    nav ul li a button img{
+        width: 20px;
+        height: 20px;
+    }
+    span{
+        display: flex;
+        display: inline;
+    }
+    .logo{
+        display: flex;
+        display: inline;
+    }
+    #btn_logo{
+        margin-right: 26%;
+    }
+    .bt{
+        display: flex;
+    }
+    .corp{
+        width: 2000px;
+    }
+}
+
+@media(min-width:2300px){
+    nav{
+        height: auto;
+        background-color: rgba(150, 117, 150, 0.582);
+        position: fixed;
+        min-width: 2500px;
+    }
+    nav ul li{
+        display: inline;
+    }
+    nav ul li a button{
+        width: 250px;
+        margin: 23px;
+        height: 105px;
+        background-color: rgba(150, 117, 150, 0);
+        border: none;
+    }
+    nav ul li a button:hover{
+        background-color: rgba(150, 117, 150, 0.541);
+    }
+    nav ul li a button img{
+        width: 20px;
+        height: 20px;
+    }
+    span{
+        display: flex;
+        display: inline;
+    }
+    .logo{
+        display: flex;
+        display: inline;
+    }
+    #btn_logo{
+        margin-right: 27%;
+    }
+    .bt{
+        display: flex;
+    }
+    .corp{
+        width: 2000px;
+    }
+}
+
+@media(min-width:2400px){
+    nav{
+        height: auto;
+        background-color: rgba(150, 117, 150, 0.582);
+        position: fixed;
+        min-width: 2600px;
+    }
+    nav ul li{
+        display: inline;
+    }
+    nav ul li a button{
+        width: 260px;
+        margin: 24px;
+        height: 110px;
+        background-color: rgba(150, 117, 150, 0);
+        border: none;
+    }
+    nav ul li a button:hover{
+        background-color: rgba(150, 117, 150, 0.541);
+    }
+    nav ul li a button img{
+        width: 20px;
+        height: 20px;
+    }
+    span{
+        display: flex;
+        display: inline;
+    }
+    .logo{
+        display: flex;
+        display: inline;
+    }
+    #btn_logo{
+        margin-right: 28%;
+    }
+    .bt{
+        display: flex;
+    }
+    .corp{
+        width: 2000px;
+    }
+}
+
+@media(min-width:2500px){
+    nav{
+        height: auto;
+        background-color: rgba(150, 117, 150, 0.582);
+        position: fixed;
+        min-width: 2700px;
+    }
+    nav ul li{
+        display: inline;
+    }
+    nav ul li a button{
+        width: 270px;
+        margin: 25px;
+        height: 115px;
+        background-color: rgba(150, 117, 150, 0);
+        border: none;
+    }
+    nav ul li a button:hover{
+        background-color: rgba(150, 117, 150, 0.541);
+    }
+    nav ul li a button img{
+        width: 20px;
+        height: 20px;
+    }
+    span{
+        display: flex;
+        display: inline;
+    }
+    .logo{
+        display: flex;
+        display: inline;
+    }
+    #btn_logo{
+        margin-right: 29%;
+    }
+    .bt{
+        display: flex;
+    }
+    .corp{
+        width: 2000px;
+    }
+}
+
+@media(min-width:2600px){
+    nav{
+        height: auto;
+        background-color: rgba(150, 117, 150, 0.582);
+        position: fixed;
+        min-width: 2800px;
+    }
+    nav ul li{
+        display: inline;
+    }
+    nav ul li a button{
+        width: 280px;
+        margin: 26px;
+        height: 120px;
+        background-color: rgba(150, 117, 150, 0);
+        border: none;
+    }
+    nav ul li a button:hover{
+        background-color: rgba(150, 117, 150, 0.541);
+    }
+    nav ul li a button img{
+        width: 20px;
+        height: 20px;
+    }
+    span{
+        display: flex;
+        display: inline;
+    }
+    .logo{
+        display: flex;
+        display: inline;
+    }
+    #btn_logo{
+        margin-right: 30%;
+    }
+    .bt{
+        display: flex;
+    }
+    .corp{
+        width: 2000px;
+    }
+}

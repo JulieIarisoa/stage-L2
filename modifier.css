@@ -1,0 +1,38 @@
+*{
+    padding: 0%;
+    font-family: cursive;
+}
+body{
+    margin-left: 30%;
+    background-color: #999;
+}
+input{
+    display: block;
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+input:hover{
+    border: 1px solid rgb(216, 233, 255);
+    box-shadow: 2px 2px 10px grey;
+    margin-bottom: 10px;
+}
+.btn{
+    display: inline-block;
+    width: 100px;
+    margin-left: 10px;
+}
+.btn:hover{
+    font-weight: bolder;
+    box-shadow: 2px 2px 10px grey;
+    border: none;
+    background-color: green;
+}
+.formulaire{
+    background-color: rgb(254, 254, 254);
+    width: 350px;
+    padding-top: 1px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
